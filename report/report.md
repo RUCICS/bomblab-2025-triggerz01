@@ -617,7 +617,6 @@ Dump of assembler code for function secret_phase:
    0x0000000000001c31 <+87>:    call   0x1f33 <explode_bomb>
    0x0000000000001c36 <+92>:    jmp    0x1c17 <secret_phase+61>
 End of assembler dump.
-这是secret_phase的汇编代码，请你解析并告诉我如何去拆
 ```
 这个本质上是马走棋盘问题，我们先调出有哪些障碍物，然后写一个BFS规划出路径为答案
 
